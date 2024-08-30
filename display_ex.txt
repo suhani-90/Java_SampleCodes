@@ -1,0 +1,32 @@
+import java.util.*;
+class negativesalary extends exception
+{
+   public negativesalary()
+   {
+      System.out.println("An exception has occured");
+   }
+ 
+
+class display_ex
+{
+   public static void main(String args [])
+   {
+      Scanner s=new Scanner(System.in);
+      try
+  {
+     System.out.println("enter your name: ");
+     String name=s.next();
+     System.out.printl("enter your salary: ");
+      int salary=s.nextInt();
+  
+    if(age<0)
+   {
+     System.out.println("entred salary is negative!!!");
+   }
+}
+ catch(negativesalary e)
+{
+   System.out.println(e);
+ }
+}
+     
